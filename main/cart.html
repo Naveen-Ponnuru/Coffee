@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>RestoBrew - Cart Page</title>
+    
+    <link rel="icon" href="images/logo.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light scrolled awake" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="landing_page.html"><b>Restobrew</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" 
+                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="landing_page.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="menu_page.html" class="nav-link">Menu</a></li>
+                        <li class="nav-item"><a href="book_a_table.html" class="nav-link">Book A Table</a></li>
+                        <li class="nav-item"><a href="contact_page.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item cart">
+                            <a href="cart.html" class="nav-link">
+                                <span class="icon icon-shopping_cart"></span>
+                                <span class="bag d-flex justify-content-center align-items-center">
+                                    <small>1</small>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END Header -->
+
+<!-- Hero Section -->
+<section class="home-slider owl-carousel">
+  <div class="slider-item" style="background-image: url(images/cart.jpg);" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+          <div class="row slider-text justify-content-center align-items-center">
+              <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                  <h1 class="mb-3 mt-5 bread">Cart</h1>
+                  <nav aria-label="breadcrumb">
+                      <p class="breadcrumbs">
+                          <span class="mr-2"><a href="landing_page.html">Home</a></span> 
+                          <span>Cart</span>
+                      </p>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Cart Section -->
+<main class="ftco-section ftco-cart">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12 ftco-animate">
+              <div class="cart-list">
+                  <table class="table">
+                      <thead class="thead-primary">
+                          <tr class="text-center">
+                              <th>&nbsp;</th>
+                              <th>&nbsp;</th>
+                              <th>Product</th>
+                              <th>Price</th>
+                              <th>Quantity</th>
+                              <th>Total</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr class="text-center">
+                              <td class="product-remove"><a href="#" aria-label="Remove item"><span class="icon-close"></span></a></td>
+                              <td class="image-prod">
+                                  <figure>
+                                      <img src="images/menu-2.jpg" alt="Oreo Milkshake" class="img-fluid">
+                                  </figure>
+                              </td>
+                              <td class="product-name">
+                                  <article>
+                                      <h3>Oreo Milkshake</h3>
+                                      <p>A rich, chocolatey treat mixed with Oreo cookies, making it a velvety treat at our Restobar.</p>
+                                  </article>
+                              </td>
+                              <td class="price">299/-</td>
+                              <td class="quantity">
+                                  <input type="number" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+                              </td>
+                              <td class="total">299/-</td>
+                          </tr>
+
+                          <tr class="text-center">
+                              <td class="product-remove"><a href="#" aria-label="Remove item"><span class="icon-close"></span></a></td>
+                              <td class="image-prod">
+                                  <figure>
+                                      <img src="images/Brownie and Ice Cream.jpg" alt="Brownie and Ice Cream" class="img-fluid">
+                                  </figure>
+                              </td>
+                              <td class="product-name">
+                                  <article>
+                                      <h3>Brownie and Ice Cream</h3>
+                                      <p>A warm fudgy brownie served with creamy vanilla ice cream, a divine combination to finish your meal.</p>
+                                  </article>
+                              </td>
+                              <td class="price">249/-</td>
+                              <td class="quantity">
+                                  <input type="number" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+                              </td>
+                              <td class="total">249/-</td>
+                          </tr>
+                      </tbody>
+                      <tfoot>
+                          <tr class="text-center">
+                              <td colspan="6"><a href="menu_page.html" class="btn btn-secondary">Continue Shopping</a></td>
+                          </tr>
+                      </tfoot>
+                  </table>
+              </div>
+          </div>
+      </div>
+
+      <!-- Cart Summary -->
+      <div class="row justify-content-end">
+          <aside class="col-lg-3 col-md-6 mt-5 cart-wrap ftco-animate">
+              <div class="cart-total mb-3">
+                  <h3>Cart Totals</h3>
+                  <p class="d-flex">
+                      <span>Subtotal</span>
+                      <span>548 /-</span>
+                  </p>
+                  <p class="d-flex">
+                      <span>Delivery</span>
+                      <span>110 /-</span>
+                  </p>
+                  <p class="d-flex">
+                      <span>Discount</span>
+                      <span>48 /-</span>
+                  </p>
+                  <hr>
+                  <p class="d-flex total-price">
+                      <span>Total</span>
+                      <span>610 /-</span>
+                  </p>
+              </div>
+              <p class="text-center">
+                  <a href="checkout.html" class="btn btn-primary py-3 px-4">Proceed to Checkout</a>
+              </p>
+          </aside>
+      </div>
+  </div>
+</main>
+
+
+<section class="ftco-section">
+  <div class="container">
+      <!-- Section Header -->
+      <header class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+              <span class="subheading">Discover</span>
+              <h2 class="mb-4">Related Products</h2>
+              <p>
+                  Your cart is ready! Before you proceed to checkout, discover more tasty dishes and signature beverages from our Meeting Place Restobar.
+                  Treat yourself to our chef's specials, expertly crafted drinks, and sweet treats to make your dining experience truly unforgettable.
+              </p>
+          </div>
+      </header>
+
+      <!-- Products Grid -->
+      <div class="row">
+          <!-- Product 1 -->
+          <article class="col-md-3">
+              <div class="menu-entry">
+                  <figure>
+                      <img src="images/menu-1.jpg" alt="Espresso Royale" class="img-fluid">
+                  </figure>
+                  <div class="text text-center pt-4">
+                      <h3><a href="#">Espresso Royale</a></h3>
+                      <p>
+                          A rich, strong shot of espresso, providing the richest flavor of coffee, ideal for a quick pick-me-up at your Go-To Meeting place and a good Restocafe.
+                      </p>
+                      <p class="price"><span>249 /-</span></p>
+                      <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                  </div>
+              </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="col-md-3">
+              <div class="menu-entry">
+                  <figure>
+                      <img src="images/menu-2.jpg" alt="Caramel Macchiato" class="img-fluid">
+                  </figure>
+                  <div class="text text-center pt-4">
+                      <h3><a href="#">Caramel Macchiato</a></h3>
+                      <p>
+                          A velvety espresso, perfectly layered with steamed milk and rich caramel drizzle, delivering a sweet and indulgent escape at our Meeting Place.
+                      </p>
+                      <p class="price"><span>299 /-</span></p>
+                      <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                  </div>
+              </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="col-md-3">
+              <div class="menu-entry">
+                  <figure>
+                      <img src="images/menu-3.jpg" alt="Mocha Delight" class="img-fluid">
+                  </figure>
+                  <div class="text text-center pt-4">
+                      <h3><a href="#">Mocha Delight</a></h3>
+                      <p>
+                          A rich blend of espresso, decadent chocolate, and creamy milk, providing the ultimate combination of indulgence and comfort.
+                      </p>
+                      <p class="price"><span>349 /-</span></p>
+                      <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                  </div>
+              </div>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="col-md-3">
+              <div class="menu-entry">
+                  <figure>
+                      <img src="images/menu-4.jpg" alt="Hazelnut Affogato" class="img-fluid">
+                  </figure>
+                  <div class="text text-center pt-4">
+                      <h3><a href="#">Hazelnut Affogato</a></h3>
+                      <p>
+                          A combination of nutty hazelnut taste with a splash of hot espresso poured over smooth vanilla ice cream—a real Fine Dining Café experience.
+                      </p>
+                      <p class="price"><span>299 /-</span></p>
+                      <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+                  </div>
+              </div>
+          </article>
+      </div>
+  </div>
+</section>
+
+
+<footer class="ftco-footer ftco-section img" style="padding-bottom: 0px;">
+  <div class="overlay"></div>
+  <div class="container">
+      <div class="row mb-5" style="justify-content: center; gap: 100px;">
+          <!-- About Us -->
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+              <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">About Us</h2>
+                  <p>
+                      Welcome to Meeting Place Restobar, where flavors from around the world unite in a warm and inviting ambiance. A perfect destination for great food, great company, and memorable moments.
+                  </p>
+                  <ul class="ftco-footer-social list-unstyled float-md-left mt-4">
+                      <li class="ftco-animate fadeInUp">
+                          <a href="#" aria-label="Twitter"><span class="icon-twitter"></span></a>
+                      </li>
+                      <li class="ftco-animate fadeInUp">
+                          <a href="#" aria-label="Facebook"><span class="icon-facebook"></span></a>
+                      </li>
+                      <li class="ftco-animate fadeInUp">
+                          <a href="#" aria-label="Instagram"><span class="icon-instagram"></span></a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <!-- Services -->
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+              <div class="ftco-footer-widget mb-4 ml-md-4">
+                  <h2 class="ftco-heading-2">Services</h2>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="py-2 d-block">Dine-In</a></li>
+                      <li><a href="#" class="py-2 d-block">Takeaway</a></li>
+                      <li><a href="#" class="py-2 d-block">Catering</a></li>
+                      <li><a href="#" class="py-2 d-block">Special Events</a></li>
+                  </ul>
+              </div>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+              <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Have a Question?</h2>
+                  <ul class="list-unstyled">
+                      <li>
+                          <span class="icon icon-map-marker"></span>
+                          <span class="text">RestoBrew, Visakhapatnam, India</span>
+                      </li>
+                      <li>
+                          <a href="tel:+916302949902">
+                              <span class="icon icon-phone"></span>
+                              <span class="text">+91 63029 49902</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="mailto:info@RestroBrew.com">
+                              <span class="icon icon-envelope"></span>
+                              <span class="text">info@RestroBrew.com</span>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!-- Loader -->
+<div id="ftco-loader" class="show fullscreen">
+  <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+  </svg>
+</div>
+
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+
+    
+  </body>
+</html>
